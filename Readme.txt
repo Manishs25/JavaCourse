@@ -1,1 +1,1 @@
-Welcome to readme!!
+All the fundamentals of java done so far.
