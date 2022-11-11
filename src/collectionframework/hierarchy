@@ -1,0 +1,20 @@
+
+
+
+
+ Collection Hierarchy :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::>
+
+
+
+
+                                                       iterable(I)
+
+                                                      Collection(I)
+
+
+ List(I)                                                Queue(I)                                    Set(I)
+
+
+ - ArrayList(C)                                    -  PriorityQueue(C)                           - HashSet(C)
+ - LinkedList(C)                                   -  Deque(I)                                   - LinkedHashSet(C)
+ - Vector                                          -  ArrayDeque(C)
