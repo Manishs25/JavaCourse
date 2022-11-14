@@ -14,12 +14,12 @@ public class AnnonymousInnerClass2 {
             }
         };
         myInterface.show();
-        myInterface.sum(9,7);
+        myInterface.sum(9, 7);
     }
 
-    interface MyInterface{
+    interface MyInterface {
         void show();
 
-        int sum(int a,int b);
+        int sum(int a, int b);
     }
 }
