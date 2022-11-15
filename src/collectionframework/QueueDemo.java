@@ -1,5 +1,6 @@
 package collectionframework;
 
+import java.util.Deque;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
@@ -11,6 +12,7 @@ public class QueueDemo {
         queue.add(20);
         queue.add(30);
         queue.add(40);
+
 
 //        int i = 0;
 //        while (true){

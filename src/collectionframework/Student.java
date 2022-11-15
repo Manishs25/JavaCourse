@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class Student implements Comparable<Student> {
+public class    Student implements Comparable<Student> {
     int id;
 
     String name;

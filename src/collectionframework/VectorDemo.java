@@ -19,7 +19,7 @@ public class VectorDemo {
 
         System.out.println(list);
         System.out.println(list.capacity());
-        System.out.println(list.contains(40));
+        System.out.println(list.contains(40)); //for searching
         System.out.println(list.firstElement());
         System.out.println(list.get(2));
         System.out.println(list.lastElement());
