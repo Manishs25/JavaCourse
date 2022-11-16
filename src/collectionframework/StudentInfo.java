@@ -6,9 +6,7 @@ import java.util.List;
 public class StudentInfo {
     int id;
 
-    String name;
-
-    String address;
+    String name, address;
 
     public StudentInfo(int id, String name, String address) {
         this.id = id;
@@ -27,7 +25,7 @@ public class StudentInfo {
         list.add(obj2);
         list.add(obj3);
 
-        list.forEach(studInfo -> System.out.println(studInfo.id+" "+studInfo.name+" "+studInfo.address));
+        list.forEach(studInfo -> System.out.println(studInfo.id + " " + studInfo.name + " " + studInfo.address));
     }
 }
 

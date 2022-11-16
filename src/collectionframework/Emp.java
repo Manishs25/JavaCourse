@@ -7,9 +7,7 @@ import java.util.Set;
 public class Emp {
     int id;
 
-    String name;
-
-    String address;
+    String name, address;
 
     public Emp(int id, String name, String address) {
         this.id = id;

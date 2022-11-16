@@ -4,12 +4,10 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class    Student implements Comparable<Student> {
+public class Student implements Comparable<Student> {
     int id;
 
-    String name;
-
-    String address;
+    String name, address;
 
     public Student(int id, String name, String address) {
         this.id = id;

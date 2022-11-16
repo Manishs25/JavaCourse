@@ -5,11 +5,7 @@ import java.util.LinkedList;
 public class Employee {
     int id;
 
-    String name;
-
-    String address;
-
-    String company;
+    String name, address, company;
 
     int salary;
 
