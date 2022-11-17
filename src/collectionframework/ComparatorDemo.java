@@ -29,17 +29,19 @@ public class ComparatorDemo {
         list.add(obj3);
         list.add(obj4);
 
-        Comparator<ComparatorDemo> c = (ComparatorDemo o1, ComparatorDemo o2) -> {
-            if (o1.id == o2.id) {
-                return 0;
-            } else if (o1.id > o2.id) {
-                return 1;
-            } else {
-                return -1;
-            }
+        Comparator<ComparatorDemo> c =(ComparatorDemo o1, ComparatorDemo o2) -> {
+                if (o1.id == o2.id) {
+                    return 0;
+                } else if (o1.id > o2.id) {
+                    return 1;
+                } else {
+                    return -1;
+                }
 
         };
-        Comparator<ComparatorDemo> c1 = Comparator.comparing((ComparatorDemo o) -> o.name);
+        Comparator<ComparatorDemo> c1 = (ComparatorDemo o1, ComparatorDemo o2) -> {
+                return o1.name.compareTo(o2.name);
+        };
 
         Collections.sort(list, c.thenComparing(c1));
         list.forEach(s -> {
