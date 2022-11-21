@@ -3,7 +3,7 @@ package collectionframework;
 import java.util.ArrayList;
 import java.util.List;
 
-public class GenericDemo<T> {
+public class GenericDemo<T>{
 
     private T t;
 
@@ -22,13 +22,13 @@ public class GenericDemo<T> {
         obj.setT(69);
         System.out.println(obj.getT());
 
+
         List list = new ArrayList<>();
         list.add("Hiii");
         list.add(2);
         list.add('M');
 
-//        String s = (String) list.get(0);
-        System.out.println(list);
+        String s = (String) list.get(0);
     }
 
     public T getT() {
