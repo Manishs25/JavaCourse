@@ -16,7 +16,7 @@ public class LambdaExpression {
         MyInterface1 m1 = (i,j) -> {
             System.out.println(i+j);
         };
-        m1.add(2,2);
+        m1.add(6,9);
 
 
         List<Integer> list = Arrays.asList(1,2,3,4);
