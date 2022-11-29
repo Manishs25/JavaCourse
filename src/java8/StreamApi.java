@@ -13,6 +13,7 @@ import java.util.function.Function;
  * terminal : forEach(),reduce(),collect()
  * intermediate : map(Function),filter(Predicate),sorted()
  *
+ *
  */
 public class StreamApi {
     public static void main(String[] args) {
