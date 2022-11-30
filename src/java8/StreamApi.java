@@ -7,11 +7,11 @@ import java.util.function.Function;
 
 /**
  * Stream api =  it is sequence of object and it have many methods we combine that method and produce desire result
- * <p>
+ *
  * types : sequential and parallel stream(multithreading)
- * <p>
+ *
  * operation : intermediate and terminal
- * <p>
+ *
  * terminal : forEach(),reduce(),collect()
  * intermediate : map(Function),filter(Predicate),sorted()
  */
