@@ -1,0 +1,19 @@
+- sequence of characters
+- array of characters
+- final class
+- implements Serializable,Comparable,CharSequence,Constable, ConstantDesc
+
+Ways to create a String
+1. char[] ch = {'W','E','L','C','O','M','E'}
+
+  --by using new keyword
+2. String s = new String(ch);
+
+  -- by using string literal
+3. String s1 = "WELCOME";
+
+String Pool Constant
+- @ the time when we create a string literal, the JVM first checks the SCP(String constant pool).
+	If the string is already exists in pool, a ref to the pooled instance is returned,
+	otherwise a new string instance is created in pool.
+	Only one object will be created

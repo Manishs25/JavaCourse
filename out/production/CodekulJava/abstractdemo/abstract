@@ -1,0 +1,36 @@
+Abstraction
+- process of hiding the internal implementation details from the user & provides the user
+with necessary information
+
+2 ways to achieve abstraction
+1. Abstract class(0-100%)
+2. Interface(100%)
+
+Abstract class
+- stores the data members & methods
+
+//Syntax
+abstract class class_name{
+	int pid;
+	String name;
+	abstract void show();
+}
+Rules:
+1. an abstract class must be declared with an abstract keyword
+2. can have abstract & non-abstract method(concrete method)
+3. cannot be instantiated
+4. can have constructors & static methods
+5. can have final methods
+
+Notes:
+1. if class contains abstract method in that case class must be abstract
+2. if class is abstract then it may or may not be contains abstract method
+
+
+Homework
+1. public abstract class Bank {
+       abstract float getRateOfInterest();
+   }
+   class SBI extends Bank{}
+   class HDFC extends Bank{}
+   class ICICI extends Bank{}
